@@ -5,6 +5,7 @@ Creating a simple inventory management system for an electronics company that he
 Class product:
 Represent a products in the inventory.
 Contains some Method:
+
 1- __init__ :Initializes the product,it contains some Attributes:
 Product_id : The product ID.
 Name: The name of product.
