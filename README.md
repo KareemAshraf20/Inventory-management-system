@@ -36,28 +36,37 @@ Contains some Method:
 
 5- list_product : Displays all products to the inventory.
 
+
 if __name__ == "__main__":
+
 It guarantees that the code inside this condition will only be executed when the file is run directly.
 
-product1 = Product() :  
+product1 = Product() :
+
 Create products.
 
 inventory = Inventory():
+
 Create inventory.
 
 inventory.add_product(product1)
+
 Add products to inventory.
 
 inventory.list_products()
+
 Display products.
 
 product1.restock(5)
+
 Restock products.
 
 product2.sell(3)  
+
 Sell products.
 
 inventory.remove_product(3)
+
 Remove a products from inventory.
 
 
